@@ -1,0 +1,167 @@
+/*Using media query to change the style of "Landing Page" header when the screen width 
+    is larger than or equals 35 times the current font size*/
+@media only screen and (min-width: 45em){
+    h1 {
+        font-size: 8em;
+        margin: 1em;
+    }
+}
+
+
+/*The body style*/
+body {
+    background: #55B7E5;
+    margin: 0;
+    font-family: Verdana,sans-serif;
+    color: #e7e7e7;
+}
+
+/* Header Styles */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+/*The header "Landing Page" style*/
+h1 {
+    margin-top:2em;
+    margin-left:1em;
+    color: #0b1113;
+    letter-spacing: 2px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 5em;
+}
+
+
+/*Adding upperr and lower margin to the div cantaining the sections*/
+#mainContent {
+    margin: 3em 0em 3em;
+}
+
+/*The container of the section contents styles*/
+.sectionBox {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.3em;
+}
+/*Styling the section container*/
+section {
+    height: 80vh;
+    width:70%;
+    margin:0 auto;
+    overflow: auto;
+    margin-top:1em;
+    margin-bottom: 1em;
+}
+
+
+
+/*Changing the styles of the container of the section contents w.r.t screen width*/
+@media only screen and (min-width: 35em){
+    .sectionBox {
+        max-width: 50em;
+        padding: 1.5em;
+    }
+}
+
+/*Highlighting the in use section shadow*/
+section.usingSection {
+    box-shadow: 0px 0px 10px 2px #18252b;
+}
+
+/*Styling the sections headers*/
+h2 {
+    border-bottom: 1px solid #000;
+    font-family: 'Oxygen', Sans-Serif;
+    font-size: 2em;
+    color: #131b1f;
+}
+
+/*Change the style of the sections headers when the screen width
+    is larger than or equals  35 times the current font size*/
+@media only screen and (min-width: 45em){
+    h2 {
+        font-size: 4em;
+    }
+        /*Styling the container of the navigational link (the list item) while hovering over the link*/
+.navigationItem .navigationLink:hover {
+    background: #282b29;
+    color: #e7e7e7;
+}
+
+  }
+
+/*Styling the sections paragraphs*/
+p {
+    line-height: 2em;
+}
+
+/*Making the list appear beside each other*/
+li {
+    display: inline-block;
+}
+
+/*Styling the navigation links */
+.navigationBar .navigationLink {
+    padding: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #d8dee0;
+}
+
+/*Styling the container of the navigational link (the list item)*/
+.navigationItem {
+    float: left;
+    width: auto;
+    border: none;
+    margin: 1rem;
+}
+
+
+
+
+
+/*highlight navigation links when its relevant sections in use*/
+.usingLink {
+    color: #e7e7e7;
+    background-color: #131b1f ;
+}
+
+/*Styling the navigational link (list items contents)*/
+.navigationLink {
+  color: white;
+}
+
+/*Footer content color*/
+.page__footer p {
+  color: #e7e7e7;
+}
+
+/* Footer Styles */
+.pageFooter {
+    background: blue;
+    padding: 2em;
+    color: #e7e7e7;
+    text-align: center;
+}
+
+
+
+/*Styling the container of all navigational links (the unordered list)*/
+#navigationMenu {
+    background: #02B3E4;
+    width:100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    float:left;
+    box-shadow: 0px 0px 13px 0px #131c20;
+}
+
+/*Styling the container of the navigational link (the list item) while hovering over the link*/
+.navigationItem .navigationLink:hover {
+    background: #282b29;
+    color: #e7e7e7;
+}
